@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kentucky Public Hunting Lands</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>Kentucky Public Hunting Lands</h1>
+  <p>WMAs & Public Hunting Access Areas</p>
+</header>
+
+<section class="filters">
+  <input type="text" id="searchInput" placeholder="Search by name or county" />
+
+  <select id="regionFilter">
+    <option value="">All Regions</option>
+    <option value="Purchase">Purchase</option>
+    <option value="Green River">Green River</option>
+    <option value="Bluegrass">Bluegrass</option>
+    <option value="Northeast">Northeast</option>
+    <option value="Southeast">Southeast</option>
+  </select>
+
+  <select id="countyFilter">
+    <option value="">All Counties</option>
+  </select>
+
+  <select id="typeFilter">
+    <option value="">All Types</option>
+    <option value="WMA">WMA</option>
+    <option value="Access Area">Access Area</option>
+  </select>
+</section>
+
+<div id="map"></div>
+
+<section class="table-section">
+  <table id="landsTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>County</th>
+        <th>Region</th>
+        <th>Type</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</section>
+
+<footer>
+  Public land data sourced from the Kentucky Department of Fish and Wildlife
+  Resources. This site is not affiliated with or endorsed by KDFWR.
+</footer>
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

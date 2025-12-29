@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Peabody Wildlife Management Area",
+    "type": "WMA",
+    "county": ["Webster", "Ohio"],
+    "region": "Green River",
+    "latitude": 37.4723,
+    "longitude": -87.6664
+  },
+  {
+    "name": "Graves County Public Hunting Access Areas",
+    "type": "Access Area",
+    "county": ["Graves"],
+    "region": "Purchase",
+    "latitude": 36.7232,
+    "longitude": -88.6464,
+    "areas": [
+      "Asher Hunting Access Area",
+      "Wells Hunting Access Area",
+      "Continental Hunting Access Area"
+    ]
+  }
+]
