@@ -1,5 +1,29 @@
 [
   {
+    "name": "Ballard Wildlife Management Area",
+    "type": "WMA",
+    "county": ["Ballard"],
+    "region": "Purchase",
+    "latitude": 37.0652,
+    "longitude": -89.0234
+  },
+  {
+    "name": "West Kentucky Wildlife Management Area",
+    "type": "WMA",
+    "county": ["Fulton", "Hickman"],
+    "region": "Purchase",
+    "latitude": 36.6125,
+    "longitude": -88.9581
+  },
+  {
+    "name": "Barren River Lake Wildlife Management Area",
+    "type": "WMA",
+    "county": ["Allen", "Barren"],
+    "region": "Green River",
+    "latitude": 36.8167,
+    "longitude": -86.849
+  },
+  {
     "name": "Peabody Wildlife Management Area",
     "type": "WMA",
     "county": ["Webster", "Ohio"],
@@ -8,16 +32,143 @@
     "longitude": -87.6664
   },
   {
+    "name": "Sloughs Wildlife Management Area",
+    "type": "WMA",
+    "county": ["Henderson"],
+    "region": "Green River",
+    "latitude": 37.8215,
+    "longitude": -87.566
+  },
+  {
+    "name": "Cedar Creek Wildlife Management Area",
+    "type": "WMA",
+    "county": ["Lincoln"],
+    "region": "Bluegrass",
+    "latitude": 37.4767,
+    "longitude": -84.6554
+  },
+  {
+    "name": "Green River Lake Wildlife Management Area",
+    "type": "WMA",
+    "county": ["Taylor"],
+    "region": "Bluegrass",
+    "latitude": 37.2681,
+    "longitude": -85.3038
+  },
+  {
+    "name": "Guist Creek Lake Wildlife Management Area",
+    "type": "WMA",
+    "county": ["Shelby"],
+    "region": "Bluegrass",
+    "latitude": 38.2263,
+    "longitude": -85.1994
+  },
+  {
+    "name": "Herrington Lake Wildlife Management Area",
+    "type": "WMA",
+    "county": ["Garrard", "Mercer"],
+    "region": "Bluegrass",
+    "latitude": 37.7328,
+    "longitude": -84.7172
+  },
+  {
+    "name": "Miller Welch-Central Kentucky Wildlife Management Area",
+    "type": "WMA",
+    "county": ["Clark", "Madison", "Powell"],
+    "region": "Bluegrass",
+    "latitude": 37.8542,
+    "longitude": -84.3217
+  },
+  {
+    "name": "Big Sandy Wildlife Management Area",
+    "type": "WMA",
+    "county": ["Pike"],
+    "region": "Northeast",
+    "latitude": 37.4821,
+    "longitude": -82.3567
+  },
+  {
+    "name": "Buckhorn Lake Wildlife Management Area",
+    "type": "WMA",
+    "county": ["Perry"],
+    "region": "Northeast",
+    "latitude": 37.3185,
+    "longitude": -83.5061
+  },
+  {
+    "name": "Fishtrap Lake Wildlife Management Area",
+    "type": "WMA",
+    "county": ["Pike"],
+    "region": "Northeast",
+    "latitude": 37.4116,
+    "longitude": -82.2875
+  },
+  {
+    "name": "Grayson Lake Wildlife Management Area",
+    "type": "WMA",
+    "county": ["Carter", "Elliott"],
+    "region": "Northeast",
+    "latitude": 38.1459,
+    "longitude": -83.1108
+  },
+  {
+    "name": "Carr Creek Lake Wildlife Management Area",
+    "type": "WMA",
+    "county": ["Knott"],
+    "region": "Southeast",
+    "latitude": 37.2574,
+    "longitude": -83.0142
+  },
+  {
+    "name": "Cumberland Falls Wildlife Management Area",
+    "type": "WMA",
+    "county": ["Whitley", "McCreary"],
+    "region": "Southeast",
+    "latitude": 36.8337,
+    "longitude": -84.3376
+  },
+  {
+    "name": "Laurel River Lake Wildlife Management Area",
+    "type": "WMA",
+    "county": ["Laurel", "Whitley"],
+    "region": "Southeast",
+    "latitude": 37.0749,
+    "longitude": -84.1641
+  },
+  {
+    "name": "Redbird Wildlife Management Area",
+    "type": "WMA",
+    "county": ["Clay", "Leslie"],
+    "region": "Southeast",
+    "latitude": 37.0857,
+    "longitude": -83.6114
+  },
+
+  {
+    "name": "Ballard County Public Hunting Access Areas",
+    "type": "Access Area",
+    "county": ["Ballard"],
+    "region": "Purchase",
+    "latitude": 37.055,
+    "longitude": -89.03,
+    "areas": ["Blandville Access Area", "Hinkleville Access Area"]
+  },
+  {
     "name": "Graves County Public Hunting Access Areas",
     "type": "Access Area",
     "county": ["Graves"],
     "region": "Purchase",
     "latitude": 36.7232,
     "longitude": -88.6464,
-    "areas": [
-      "Asher Hunting Access Area",
-      "Wells Hunting Access Area",
-      "Continental Hunting Access Area"
-    ]
+    "areas": ["Asher Access Area", "Wells Access Area", "Continental Access Area"]
+  },
+  {
+    "name": "Pulaski County Public Hunting Access Areas",
+    "type": "Access Area",
+    "county": ["Pulaski"],
+    "region": "Southeast",
+    "latitude": 37.103,
+    "longitude": -84.578,
+    "areas": ["Buck Creek Access Area", "Flat Lick Access Area", "Cedar Creek Access Area"]
   }
 ]
